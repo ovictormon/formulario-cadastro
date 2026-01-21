@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Cadastro</h1>
+      <p id="success-message">Cadastro realizado com sucesso!</p>
+
+      <form id="register-form">
+        <div class="field">
+          <label for="name">Nome</label>
+          <input type="text" id="name" />
+          <small></small>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <small></small>
+        </div>
+
+        <div class="field">
+          <label for="password">Senha</label>
+          <input type="password" id="password" />
+          <small></small>
+        </div>
+
+        <div class="field">
+          <label for="confirm-password">Confirmar Senha</label>
+          <input type="password" id="confirm-password" />
+          <small></small>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
